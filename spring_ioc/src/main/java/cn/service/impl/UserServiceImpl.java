@@ -1,6 +1,6 @@
 package cn.service.impl;
 
-import dao.UserDao;
+import cn.dao.UserDao;
 import cn.service.UserService;
 
 public class UserServiceImpl implements UserService {

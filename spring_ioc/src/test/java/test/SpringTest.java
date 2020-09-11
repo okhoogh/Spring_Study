@@ -1,8 +1,7 @@
 package test;
 
-import dao.UserDao;
+import cn.dao.UserDao;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SpringTest {

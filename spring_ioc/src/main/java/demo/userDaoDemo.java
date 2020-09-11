@@ -1,6 +1,6 @@
 package demo;
 
-import dao.UserDao;
+import cn.dao.UserDao;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

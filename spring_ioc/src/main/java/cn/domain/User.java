@@ -1,4 +1,4 @@
-package domain;
+package cn.domain;
 
 public class User {
     private String name;

@@ -13,7 +13,7 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
 
-//<bean id="userservice" class="cn.service.impl.UserServiceImpl">
+//<bean id="userservice" class="cn.cn.service.impl.UserServiceImpl">
 //@Component
 @Service
 //@Scope("singleton")

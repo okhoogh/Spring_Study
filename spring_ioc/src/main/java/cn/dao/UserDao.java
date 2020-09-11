@@ -1,4 +1,4 @@
-package dao;
+package cn.dao;
 
 public interface UserDao {
     void save();

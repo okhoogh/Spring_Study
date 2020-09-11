@@ -1,7 +1,7 @@
 package factory;
 
-import dao.UserDao;
-import dao.impl.UserDaoImpl;
+import cn.dao.UserDao;
+import cn.dao.impl.UserDaoImpl;
 
 public class DynamicFactory {
     public UserDao getUser() {

@@ -1,7 +1,7 @@
-package dao.impl;
+package cn.dao.impl;
 
-import dao.UserDao;
-import domain.User;
+import cn.dao.UserDao;
+import cn.domain.User;
 
 import java.util.List;
 import java.util.Map;
