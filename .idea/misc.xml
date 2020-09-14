@@ -15,6 +15,9 @@
         <option value="$PROJECT_DIR$/spring_jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/spring_tx/pom.xml" />
         <option value="$PROJECT_DIR$/spring_tx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_exception/pom.xml" />
       </list>
     </option>
   </component>
