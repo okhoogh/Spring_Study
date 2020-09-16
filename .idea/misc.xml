@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/spring_mvc/pom.xml" />
         <option value="$PROJECT_DIR$/spring_interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/spring_exception/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_mybatis_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_config/pom.xml" />
       </list>
     </option>
   </component>
