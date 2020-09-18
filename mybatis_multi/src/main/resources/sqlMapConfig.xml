@@ -7,19 +7,9 @@
     <!--自定义别名-->
     <typeAliases>
         <typeAlias type="domain.User" alias="user"/>
+        <typeAlias type="domain.Order" alias="order"/>
+        <typeAlias type="domain.Role" alias="role"/>
     </typeAliases>
-
-    <!--注册类型处理器-->
-    <typeHandlers>
-        <typeHandler handler="handler.DateTypeHandler"/>
-    </typeHandlers>
-
-    <!--配置分页助手插件-->
-    <plugins>
-        <plugin interceptor="com.github.pagehelper.PageHelper">
-            <property name="dialect" value="mysql"/>
-        </plugin>
-    </plugins>
 
     <!--配置数据源环境-->
     <environments default="development">
@@ -37,6 +27,7 @@
     <!--加载映射文件-->
     <mappers>
         <mapper resource="mapper/UserMapper.xml"/>
+        <mapper resource="mapper/OrderMapper.xml"/>
     </mappers>
 
 </configuration>

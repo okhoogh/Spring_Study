@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.UserMapper">
+
+    <!--用户和订单关系 1对多-->
+    
+    <resultMap id="userOrderMap" type="user">
+        <id column="uid" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="birthday" property="birthday"/>
+
+        <!--配置集合信息 collection-->
+        <collection property="orderList" ofType="order">
+            <id column="oid" property="id"/>
+            <result column="ordertime" property="ordertime"/>
+            <result column="ordertime" property="ordertime"/>
+            <result column="total" property="total"/>
+        </collection>
+    </resultMap>
+
+    <!--用户和角色关系 多对多-->
+
+    <resultMap id="userRoleMap" type="user">
+        <id column="userid" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="birthday" property="birthday"/>
+
+        <!--配置集合信息 collection-->
+        <collection property="roleList" ofType="role">
+            <id column="roleid" property="id"/>
+                <result column="rolename" property="roleName"/>
+            <result column="roleDesc" property="roleDesc"/>
+        </collection>
+    </resultMap>
+
+    <select id="findAll" resultMap="userOrderMap">
+        select *, o.id oid from user u, orders o where u.id = o.uid
+    </select>
+
+    <select id="findUserAndRoleAll" resultMap="userRoleMap">
+        SELECT *  FROM USER u, sys_user_role ur, sys_role r WHERE u.id = ur.userid AND r.id - ur.roleid
+    </select>
+</mapper>
+

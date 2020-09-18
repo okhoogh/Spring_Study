@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_anno/mybatis_anno.iml" filepath="$PROJECT_DIR$/mybatis_anno/mybatis_anno.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_config/mybatis_config.iml" filepath="$PROJECT_DIR$/mybatis_config/mybatis_config.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_dao/mybatis_dao.iml" filepath="$PROJECT_DIR$/mybatis_dao/mybatis_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_multi/mybatis_multi.iml" filepath="$PROJECT_DIR$/mybatis_multi/mybatis_multi.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_aop/spring_aop.iml" filepath="$PROJECT_DIR$/spring_aop/spring_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_exception/spring_exception.iml" filepath="$PROJECT_DIR$/spring_exception/spring_exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_interceptor/spring_interceptor.iml" filepath="$PROJECT_DIR$/spring_interceptor/spring_interceptor.iml" />
@@ -16,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring_test/spring_test.iml" filepath="$PROJECT_DIR$/spring_test/spring_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_tx/spring_tx.iml" filepath="$PROJECT_DIR$/spring_tx/spring_tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_tx_anno/spring_tx_anno.iml" filepath="$PROJECT_DIR$/spring_tx_anno/spring_tx_anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm/ssm.iml" filepath="$PROJECT_DIR$/ssm/ssm.iml" />
     </modules>
   </component>
 </project>
